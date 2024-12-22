@@ -9,10 +9,16 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Project EXA 2.0</h1>
+        <h1>Namaskaram Sir</h1>
     </header>
     <main>
         <canvas id="doodleCanvas" width="800" height="600"></canvas>
+        <div id="controls">
+            <input type="color" id="colorPicker" value="#000000">
+            <input type="range" id="lineWidthSlider" min="1" max="50" value="10">
+            <button id="clearButton">Clear</button>
+            <button id="saveButton">Save</button>
+        </div>
     </main>
     <script src="js/scripts.js"></script>
     <script src="service-worker.js"></script>
